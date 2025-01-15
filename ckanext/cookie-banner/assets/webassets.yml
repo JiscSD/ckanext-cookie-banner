@@ -1,0 +1,12 @@
+civic-banner-js:
+  contents:
+    - js/civic.js
+    - js/civic_config.js
+    - js/civic_property.js
+    - js/cookie_list.js
+    - js/cookieControl-9.x.min.js
+  filters: rjsmin
+  output: ckanext-cookie-banner/%(version)s-civic-banner.js
+  extra:
+    preload:
+      - base/main
