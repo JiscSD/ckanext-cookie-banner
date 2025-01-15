@@ -6,7 +6,7 @@ civic-banner-js:
     - js/cookie_list.js
     - js/cookieControl-9.x.min.js
   filters: rjsmin
-  output: ckanext-cookie-banner/%(version)s-civic-banner.js
+  output: ckanext-cookie_banner/%(version)s-civic-banner.js
   extra:
     preload:
       - base/main
