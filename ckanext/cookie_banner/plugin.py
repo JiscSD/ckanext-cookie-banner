@@ -8,7 +8,6 @@ import ckan.plugins.toolkit as toolkit
 
 
 class UKDSCookieBannerPlugin(plugins.SingletonPlugin):
-    plugins.implements(plugins.ITemplateHelpers)
     # Declare that this class implements IConfigurer.
     plugins.implements(plugins.IConfigurer)
 
