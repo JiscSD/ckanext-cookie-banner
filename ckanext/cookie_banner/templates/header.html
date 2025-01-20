@@ -1,5 +1,6 @@
 {% ckan_extends %}
 
 {% block header %}
-    {% asset 'ckanext-cookie_banner/civic-banner-js' %}
+    {{ super() }}
+    {% asset 'ckanext-cookie_banner/civic-banner.js' %}
 {% endblock %}
