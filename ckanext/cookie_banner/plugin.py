@@ -1,8 +1,8 @@
 # encoding: utf-8
 
-'''plugin.py
+"""plugin.py
 
-'''
+"""
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
 
@@ -17,4 +17,4 @@ class UKDSCookieBannerPlugin(plugins.SingletonPlugin):
         # 'templates' is the path to the templates dir, relative to this
         # plugin.py file.
         toolkit.add_template_directory(config, 'templates')
-        toolkit.add_resource('assets', 'cookie_banner')
+        toolkit.add_resource('assets', 'cookie_webassets')
